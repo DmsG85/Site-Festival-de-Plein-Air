@@ -1,0 +1,306 @@
+.section-article, #formulaire{
+    width: 60%;
+    margin: 200px auto 0;
+    
+} 
+.banniere{
+    
+    height: 600px;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-image: url(../img/lune1.jpg);
+    display: flex;
+} 
+.title{
+    text-align: center;
+    color: white;
+    margin: 180px auto 200px auto;
+    
+  
+}
+.title h1{
+    text-transform: uppercase;
+    line-height: 0.5;
+    
+}
+.title h2{
+    font-size: 70px;
+    letter-spacing: 5px;
+    line-height: 0.5;
+    
+}
+/*************** Section article**************** */
+header{
+    text-align: center;
+}
+header h3{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+.title2{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #171a21;
+    padding-bottom: 10px;
+}
+.important{
+    font-weight: bold;
+    color: #171a21;
+}
+.article1{
+    display: flex;
+    background-color: #2C7DA0;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.article2{
+    display: flex;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+.photo-article{
+    width: 50%;
+    
+}
+.photo-article img{
+    width: 100%;
+    margin: auto;   
+}
+
+.text-article1{
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    color: white;
+    width: 50%;
+    
+}
+.text-article1 p{
+    text-align: center;
+    margin: 10px;
+    
+}
+.text-article{
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+    color: black;
+    width: 50%;
+}
+.text-article p{
+    color: black;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+
+}
+.fas{
+    font-size: 80px;
+    margin: 20px 0 auto 260px;
+}
+.fa-film{
+    margin: 20px;
+}
+
+/************** Carousel ***********/
+.carousel{
+    display: flex;
+    justify-content: center;    
+}
+.carousel-item{
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 350px;
+}
+.carousel-item.active{
+    display: inline-flex;
+}
+.img-carou{
+    width: 530px !important;
+    height: 320px !important;
+    flex: 0;
+    object-fit: contain;
+}
+.carousel-caption{
+    bottom: 0;
+    left: 0;
+    padding-top: 7%; 
+    position: inherit;
+}
+
+#ga-carousel{
+    margin: 60px auto auto 0;
+    background-color: #171a21;
+   
+}
+h5{
+    text-align: center;
+    font-weight: bold;
+    color: white; 
+}
+
+/***** Fin carousel ******/
+/* button encart réservez */
+.btn-outline-secondary{
+    margin-left: 200px;
+    border-radius: 0;
+    
+}
+.btn-outline-secondary:hover{
+    background-color: #2C7DA0;
+}
+/************ section réservation /**********/
+#formulaire{
+    border: 1px solid grey;
+    box-shadow: 0 0 2em black;
+    margin-bottom: 200px;
+}
+.photo-reservation img{
+    width: 580px;
+    height: 500px;
+    margin: auto;
+     
+}
+.was-validated{
+    padding: 10px;
+}
+
+/******************* contactez-nous ************/
+
+#contact{ 
+    background-color: #212529;
+    background-image: url("../img/nebula.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 30px;
+}
+.section-subheading, .section-heading{
+    font-weight: normal;
+    padding: 10px;
+}
+.form-group{ 
+    margin-bottom: 25px;
+}
+
+.form-group input, .form-group textarea{
+    padding: 20px;
+}
+
+.form-group input.form-control{
+    height: auto;
+}
+
+.form-group textarea.form-control{ 
+    height: 248px;
+}
+
+.form-control:focus { 
+    border-color: #8FC93A;
+    box-shadow: none;
+    
+}
+
+ ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: #ced4da;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+@media all and (max-width: 767px){
+   
+    main{
+        width: 100%;
+    }
+    h3{
+        font-size: x-large;
+    }
+    .article1, .article2{
+        display: block;
+    }
+    
+    .text-article, .text-article1{
+        width:100%;
+        text-align: left;
+    }
+    .photo-article{
+        margin: 0 auto;
+        width:100%;
+    }
+    .banniere{
+        width: 100%;
+        height: 300px;
+      
+    }
+    
+    .title h1{
+        margin: auto 0;
+        font-size: 30px;
+    }
+    .title h2{
+        font-size: 30px;
+        letter-spacing: normal;
+    }
+    
+    /* Carousel */
+    
+  
+   .carousel-caption{
+    flex-direction: column;
+    
+    }
+    .img-carou{
+        width: 100% !important;
+        height: 200px !important;
+        object-fit: cover;
+    }
+    .carousel-item.active{
+        flex-direction: row;
+    }
+    .carousel-inner{
+        height: 500px;
+    }
+    p.description-card{
+        max-height: 75px;
+        overflow: hidden;
+    }
+    p.suite-mobile{
+        display: block;
+    }
+    .ga-carousel{
+        width: auto;
+        margin: 0 auto;
+    } 
+    .photo-reservation img{
+        width: 100%;
+        height: 200px;
+    }
+    .btn-outline-secondary{
+        margin-left: 70px;
+        border-radius: 0;
+        
+    }
+}
+
+
+@media all and (min-width: 768px) and (max-width: 991px){
+    .banniere, .navbar{
+        width: 950px;
+    }
+    .photo-reservation img{
+       width: 100%;
+       object-fit: cover; 
+    }
+    .section-article, #formulaire{
+        width: auto;
+    }
+    
+}

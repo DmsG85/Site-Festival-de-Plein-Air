@@ -1,0 +1,43 @@
+body{
+    background-color: #1D3661;
+}
+h2{
+    text-align: center;
+    
+}
+.card{
+    background-color: #171a21;
+    padding: 10px;
+    margin-top: 100px;
+}
+hr{
+    border: 5px solid #8FC93A;
+    width: 900px;
+    margin: 100px 0 50px 500px;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+#actu{
+    margin-top: 150px;
+ 
+}
+img{
+    width: 400px;
+}  
+.row{
+    padding: 15px;
+}
+@media all and (max-width: 767px){
+   .container{
+       display: block;
+   }
+   hr{
+       display: none;
+   }
+   img{
+       width: 100%;
+   }
+}

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="icon" type="image/png" href="assets/icones/clapperboard.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <!-- Font nom du site -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/styles/bootstrap.css">
+    <link rel="stylesheet" href="assets/styles/global.css">
+    <link rel="stylesheet" href="assets/styles/index.css">
+    <title>Les Films de Plein Air-Accueil</title>
+</head>
+
+<body>
+    <header>
+        <!----- Button scroll-up ----->
+        <div class="button-scrollUp">
+            <img src="assets/icones/fleche.svg" class="icone" alt="logo du site">
+        </div>
+
+        <!------ NavBar ------>
+
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="films.html">Films</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formulaire">Réservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="banniere">
+            <div class="title">
+                <h1>Les Films </h1>
+                <h2>de Plein Air</h2>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="section-article">
+            <article class="article1">
+                <div class="photo-article">
+                    <img src="assets/img/pont.png" alt="le pont du parc Monceau">
+                </div>
+                <article class="text-article1">
+                    <header>
+                        <h3> Bienvenue au Festival</h3>
+                    </header>
+                    <p>
+                        Pour sa toute première session, Le Film de Plein Air est très heureux de vous accueillir au Parc
+                        Monceau à Paris.
+                        Venez découvrir ou re-découvrir les films d'auteur célébre !
+
+                    </p>
+                    <p>
+                        Les séances sont <span class="important">gratuites</span> mais pensez à réserver, on ne pourra
+                        peut-être pas accueillir tout le monde ! <br>
+                        <i class="fas fa-film"></i> <br>
+                        <a href="films.html" class="btn btn-primary">
+                            Voir les films
+                        </a>
+                    </p>
+                </article>
+            </article>
+            <article class="article2 flex-row-reverse">
+                <div class="photo-article">
+                    <img src="assets/img/popcorn.jpg" alt="popcorn">
+                </div>
+                <article class="text-article">
+                    <header>
+                        <h3 class="title2">L'Association</h3>
+                    </header>
+                    <p>
+                        Elle à été créee par Jennifer Edwards elle est également l'organisatrice du festival, qui se
+                        déroulera du 5 au 8 août au parc Monceau a Paris.
+                        Nous organisons la toute première édition du festival "Les Films de Plein Air" !
+
+
+
+                        Si vous êtes intéressé par les films d'auteurs, ou si vous aimez assister à des projections de
+                        films en plein air, <span class="important"> ce festival est fait pour vous !</span> <br>
+                        Les sessions se dérouleront chaques soirs de 18h à minuit.
+                    </p>
+
+                    <p>
+                        Les séances sont <span class="important">gratuites</span> mais pensez à réserver, on ne pourra
+                        peut-être pas accueillir tout le monde ! <br>
+                        <a href="#formulaire" class="btn btn-primary">
+                            Réservez !
+                        </a>
+                    </p>
+                </article>
+            </article>
+            <article class="article1">
+                <div class="photo-article">
+                    <img src="assets/img/news.jpg" alt="le pont du parc Monceau">
+                </div>
+                <article class="text-article1">
+                    <header>
+                        <h3> Les dernières news</h3>
+                    </header>
+                    <p>
+                        Pour être au courant des dernières news concernant le festival, l'association ou bien les films
+                        qui rejoignent la selection, c'est par ici !
+
+                    </p>
+                    <i class="fas fa-angle-double-down"></i>
+                    <p>
+
+                        <a href="news.html" class="btn btn-primary">
+                            News
+                        </a>
+                    </p>
+                </article>
+            </article>
+        </section>
+        <!------------------- Carousel ----------------->
+        <section class="affiche-film">
+            <div id="ga-carousel" class="row d-block">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner col-lg-10">
+                        <div class="carousel-item col-lg-12 active">
+                            <div class="col-lg-7">
+                                <img src="assets/img/metropolis.jpg" class="img-carou" alt="image du film Metropolis">
+                            </div>
+                            <div class="carousel-caption  d-md-block col-lg-5">
+                                <h4>Metropolis</h4>
+                                <p class="description-card">Au XXIe siècle, une métropole à l'architecture fantastique
+                                    vit sous le joug d'un groupe de tyrans. Les aristocrates se prélassent et se
+                                    divertissent dans de somptueuses demeures et de luxuriants jardins...
+                                </p>
+                                <a href="films.html" class="btn btn-secondary btn-lg active" role="button"
+                                    aria-pressed="true">Lire la suite</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-lg-12">
+                            <div class="col-lg-7">
+                                <img src="assets/img/nosferatu.jpg" class="img-carou" alt="affiche du film Nosferatu">
+                            </div>
+                            <div class="carousel-caption  d-md-block col-lg-5">
+                                <h4>Nosferatu</h4>
+                                <p class="description-card">En 1838, le clerc de notaire Hulter est envoyé en
+                                    Transylvanie chez le comte Orlock, le vampire Nosferatu. Celui-ci sème la terreur et
+                                    la peste dans un village voisin, avant de tenter de séduire Ellen...
+                                </p>
+                                <a href="films.html" class="btn btn-secondary btn-lg active" role="button"
+                                    aria-pressed="true">Lire la suite</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item col-lg-12">
+                            <div class="col-lg-7">
+                                <img src="assets/img/oz.jpg" class="img-carou" alt="affiche du film Le Magicien d'Oz">
+                            </div>
+                            <div class="carousel-caption d-md-block col-lg-5">
+                                <h4>Le Magicien d'Oz</h4>
+                                <p class="description-card">
+                                    Dorothy, jeune orpheline, vit chez son oncle et sa tante. Tout irait pour le mieux
+                                    si l'institutrice ne détestait pas son chien. C'est alors que Dorothy fait un rêve
+                                    où elle se trouve transportée au royaume magique des Munchkins...
+                                </p>
+                                <a href="films.html" class="btn btn-secondary btn-lg active" role="button"
+                                    aria-pressed="true">Lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Formulaire -->
+
+        <section id="formulaire">
+            <article class="article2 flex-row-reverse">
+                <div class="photo-reservation">
+                    <img src="assets/img/reservation.jpg" alt="popcorn">
+                </div>
+
+                <article class="text-article">
+                    <header>
+                        <h3 class="title2">Réservation</h3>
+                    </header>
+
+
+                    <form class="was-validated">
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationServer01">Prénom</label>
+                                <input type="text" class="form-control is-valid" id="validationServer01" value="Mark"
+                                    required>
+                                <div class="valid-feedback">
+                                    Ok
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationServer02">Nom</label>
+                                <input type="text" class="form-control is-valid" id="validationServer02" value="Otto"
+                                    required>
+                                <div class="valid-feedback">
+                                    Ok
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="input-group is-invalid">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="validatedInputGroupPrepend">@</span>
+                                </div>
+                                <input type="text" class="form-control is-invalid"
+                                    aria-describedby="validatedInputGroupPrepend" required>
+                            </div>
+                            <div class="invalid-feedback">
+                                Veuillez entrer une adresse e-mail
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <select class="custom-select" required>
+                                <option value="">Nbrs de personnes</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Sélectionnez le nombres de personnes
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="input-group is-invalid">
+
+                                <select class="custom-select" id="validatedInputGroupSelect" required>
+                                    <option value="">Choisissez un film
+                                    </option>
+                                    <option value="1">Charade</option>
+                                    <option value="2">Metropolis</option>
+                                    <option value="3">Nosferatu</option>
+                                    <option value="4">La ruée vers l'or</option>
+                                    <option value="5">Les 39 Marches</option>
+                                    <option value="6">Le Magicien d'Oz</option>
+                                </select>
+                            </div>
+                            <div class="invalid-feedback">
+                                Sélectionnez le film que vous voulez voir
+                            </div>
+                        </div>
+
+                        <div class="input-group is-invalid">
+
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="button">Réservez !</button>
+                            </div>
+                        </div>
+                    </form>
+                </article>
+            </article>
+        </section>
+        <!-- Google Map -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.8420936292478!2d2.306378515854077!3d48.8802867071185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fb917edbb67%3A0x4931750bb19810ec!2s35%20Boulevard%20de%20Courcelles%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1606485405715!5m2!1sfr!2sfr" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+         <!-- Section Contactez-nous -->
+         <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h4 class="section-heading text-uppercase">Contactez-nous</h4>
+                        <h5 class="section-subheading">Pour tous renseignements complémentaires</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="nomcontact" type="text" placeholder="Votre nom *" required="required" data-validation-required-message="Veuillez renseigner un nom." aria-describedby="nomcontact">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="emailcontact" type="email" placeholder="Votre adresse e-mail *" required="required" data-validation-required-message="Veuillez renseigner une adresse email." aria-describedby="emailcontact">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="telephonecontact" type="tel" placeholder="Votre numéro de Téléphone *" required="required" data-validation-required-message="Veuillez renseigner un numéro de téléphone." aria-describedby="telephonecontact">
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="messagecontact" placeholder="Votre message *" required="required" data-validation-required-message="Veuillez renseigner un message."></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-center">
+                                    <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Envoyer</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!----- Footer ----->
+
+    <footer>
+        <div class="row">
+            <div class="col-md-4 col-12">
+                <a href="#contact"> CONTACTEZ-NOUS </a>
+            </div>
+            <div class="col-md-4 col-12">
+                <a href="mentionslegales.html"> MENTIONS LEGALES </a>
+            </div>
+            <div class="col-md-4 col-12">
+                <a href="#">REJOIGNEZ-NOUS</a>
+                <div id="reseaux_sociaux">
+                    <a href="#" target="_blank">
+                        <img src="assets/icones/facebook.svg" alt="icone de Facebook">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="assets/icones/twitter.svg" alt="icone de Twitter">
+                    </a>
+                    <a href="#" target="_blank">
+                        <img src="assets/icones/instagram.svg" alt="icone d'Instagram">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            © 2020 Copyright. Les Films de Plein Air.
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/992670e0b1.js" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+    <script src="assets/js/main.js" type="text/javascript"></script>
+
+</body>
+
+</html>

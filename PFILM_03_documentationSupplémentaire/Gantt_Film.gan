@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-11-04" view-index="0" gantt-divider-location="374" resource-divider-location="300" version="2.8.11" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="187" order="0"/>
+        <field id="tpd4" name="Date de début" width="84" order="1"/>
+        <field id="tpd5" name="Date de fin" width="84" order="2"/>
+        <option id="color.recent"><![CDATA[#99ff99 #ffcc66 #f4f4f4 #ffcccc #ccccff #99ccff #ffffcc]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Phase d'Initialisation" color="#99ccff" meeting="false" start="2020-11-10" duration="1" complete="0" thirdDate="2020-11-25" thirdDate-constraint="0" expand="true">
+            <task id="15" name="Recueil des besoins" color="#8cb6ce" meeting="false" start="2020-11-10" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+            <task id="23" name="Etude de faisabilité" color="#8cb6ce" meeting="false" start="2020-11-10" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+            <task id="25" name="Proposition commerciale" color="#8cb6ce" meeting="false" start="2020-11-10" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="5" name="Phase de Lancement" color="#ccccff" meeting="false" start="2020-11-12" duration="6" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true">
+            <task id="31" name="Benchmark" color="#ccccff" meeting="false" start="2020-11-12" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+            <task id="34" name="Considération Marketing" color="#ccccff" meeting="false" start="2020-11-13" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+            <task id="43" name="Considération graphique" color="#ccccff" meeting="false" start="2020-11-16" duration="1" complete="0" thirdDate="2020-11-16" thirdDate-constraint="0" expand="true"/>
+            <task id="45" name="Spécifications fonctionnelles" color="#ccccff" meeting="false" start="2020-11-17" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+            <task id="48" name="Spécification techniques" color="#ccccff" meeting="false" start="2020-11-18" duration="2" complete="0" thirdDate="2020-11-18" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="8" name="Phase de Conception" color="#ffcccc" meeting="false" start="2020-11-23" duration="5" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true">
+            <task id="54" name="Création de la charte graphique" color="#ffcccc" meeting="false" start="2020-11-23" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+            <task id="57" name="Charte éditoriale" color="#ffcccc" meeting="false" start="2020-11-24" duration="1" complete="0" thirdDate="2020-11-24" thirdDate-constraint="0" expand="true"/>
+            <task id="59" name="Maquette du site" color="#ffcccc" meeting="false" start="2020-11-25" duration="3" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="10" name="Phase de production" color="#ffcc66" meeting="false" start="2020-11-30" duration="7" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true">
+            <task id="63" name="Hébergement/ Nom de domaine" color="#ffcc66" meeting="false" start="2020-11-30" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+            <task id="67" name="Installation du serveur" color="#ffcc66" meeting="false" start="2020-11-30" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+            <task id="77" name="Développement front-end" color="#ffcc66" meeting="false" start="2020-12-01" duration="2" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+            <task id="80" name="Développement back-end" color="#ffcc66" meeting="false" start="2020-12-03" duration="2" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+            <task id="83" name="Test du site" color="#ffcc66" meeting="false" start="2020-12-07" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+            <task id="86" name="Déploiement" color="#ffcc66" meeting="false" start="2020-12-08" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="72" name="Phase d'exploitation" color="#99ff99" meeting="false" start="2020-12-09" duration="2" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true">
+            <task id="74" name="Référencement SEO" color="#99ff99" meeting="false" start="2020-12-09" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+            <task id="90" name="Formation CMS" color="#99ff99" meeting="false" start="2020-12-10" duration="1" complete="0" thirdDate="2020-11-04" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
